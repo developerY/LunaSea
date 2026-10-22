@@ -1,0 +1,6 @@
+{
+  "name": "LunaSea Cosmetics",
+  "description": "Marine Biotechnology & Celestial Skincare crafted with bio-fermented sea algae and crushed pearl peptides.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

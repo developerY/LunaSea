@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #fbf9f4;
+  --color-surface-dim: #dbdad5;
+  --color-surface-bright: #fbf9f4;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f5f3ee;
+  --color-surface-container: #f0eee9;
+  --color-surface-container-high: #eae8e3;
+  --color-surface-container-highest: #e4e2dd;
+  --color-surface-variant: #e4e2dd;
+  
+  --color-on-surface: #1b1c19;
+  --color-on-surface-variant: #414849;
+  --color-outline: #717879;
+  --color-outline-variant: #c1c8c8;
+  
+  --color-primary: #0e3234;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #27484b;
+  --color-on-primary-container: #94b6b9;
+  --color-primary-fixed: #c6e9ec;
+  --color-primary-fixed-dim: #aacdd0;
+  
+  --color-secondary: #47645f;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #c6e6e0;
+  --color-on-secondary-container: #4b6863;
+  --color-secondary-fixed: #c9e9e3;
+  --color-secondary-fixed-dim: #adcdc7;
+  --color-on-secondary-fixed: #01201c;
+  --color-on-secondary-fixed-variant: #2f4c47;
+  
+  --color-tertiary: #3c272e;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #543c44;
+  --color-on-tertiary-container: #c7a7b0;
+  --color-tertiary-fixed: #fcdae3;
+  --color-tertiary-fixed-dim: #dfbec7;
+  --color-on-tertiary-fixed: #29161d;
+  --color-on-tertiary-fixed-variant: #584048;
+
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'Outfit', sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-surface);
+  color: var(--color-on-surface);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbar for modern browsers */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(71, 100, 95, 0.2);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(71, 100, 95, 0.4);
+}
+
+.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
+.font-outfit {
+  font-family: 'Outfit', sans-serif;
+}
